@@ -31,7 +31,7 @@ a {
     color: #fff;
 }
 main{
-    background: rgb(245,238,219);
+    background: rgb(3, 142, 206);
     display: flex;
     margin-top: 20px;
 }
@@ -48,10 +48,33 @@ main{
 
 }
 #interest {
-    border: 4px silver ridge ;
+    border: 4px rgb(231, 209, 6) ridge ;
     padding: 8px;
     margin-top: 20px;
 }
 h2, h3 {
     margin: 0px ;
+}
+/* Portfolio styles */
+.content h1 {
+  color: rgb(231, 11, 11);
+}
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+#portfolio li {
+  background: #e1fa00;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #0805be;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #003bfd;
 }

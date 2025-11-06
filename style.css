@@ -9,7 +9,7 @@ body {
         margin: auto;
 }
 nav {
-    background: rgb(206, 13, 6);
+    background: hwb(61 2% 6%);
     margin: 0 auto;
     display: flex;
     padding : 10px;
